@@ -1,0 +1,50 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# Large datasets
+data/*.csv
+data/*.xlsx
+data/*.parquet
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model files
+*.pkl
+*.joblib
+
+# Credentials / API keys
+secrets.json
+credentials.json
+
+data/raw/
